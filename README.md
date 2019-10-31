@@ -3,7 +3,7 @@ sw-design-course: It's a entire course on software design
 
 ## Decks
 
-** **** UML -> https://www.slideshare.net/diego.pacheco/uml-189028484
+**** UML -> https://www.slideshare.net/diego.pacheco/uml-189028484
 
 ## Homeworks 
 
