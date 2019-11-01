@@ -34,6 +34,7 @@ sw-design-course: It's a entire course on software design
 
 * UML -> https://www.slideshare.net/diego.pacheco/uml-189028484
 * Tests -> https://www.slideshare.net/diego.pacheco/unit-testing-traning
+* OOP & FP Design -> https://www.slideshare.net/diego.pacheco/oop-design-fp-design
 
 ## Homeworks 
 
