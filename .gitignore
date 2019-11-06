@@ -1,6 +1,13 @@
 # Compiled class file
 *.class
 
+# Clojure / Scala binaries
+target/
+
+# Clojure lein files
+.lein-repl-history
+.nrepl-port
+
 # Log file
 *.log
 
