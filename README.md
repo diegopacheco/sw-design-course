@@ -36,6 +36,7 @@ sw-design-course: It's a entire course on software design
 * Tests -> https://www.slideshare.net/diego.pacheco/unit-testing-traning
 * OOP & FP Design -> https://www.slideshare.net/diego.pacheco/oop-design-fp-design
 * Scala & Clojure -> https://www.slideshare.net/diego.pacheco/clojure-scala
+* Multithreading & Actors -> https://www.slideshare.net/diego.pacheco/multithreading-and-actors
 
 ## Homeworks 
 
