@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScheduledExecutorsMain2",
+            "request": "launch",
+            "mainClass": "threads.ScheduledExecutorsMain2",
+            "projectName": "multithreading"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScheduledExecutorsMain",
+            "request": "launch",
+            "mainClass": "threads.ScheduledExecutorsMain",
+            "projectName": "multithreading"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExecutorServiceMain",
+            "request": "launch",
+            "mainClass": "threads.ExecutorServiceMain",
+            "projectName": "multithreading"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SyncViaAtomics",
+            "request": "launch",
+            "mainClass": "threads.SyncViaAtomics",
+            "projectName": "multithreading"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SyncMainFixed",
+            "request": "launch",
+            "mainClass": "threads.SyncMainFixed",
+            "projectName": "multithreading"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SyncMain",
+            "request": "launch",
+            "mainClass": "threads.SyncMain",
+            "projectName": "multithreading"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleThreads",
+            "request": "launch",
+            "mainClass": "threads.SimpleThreads",
+            "projectName": "multithreading"
+        }
+    ]
+}
