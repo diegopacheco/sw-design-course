@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LocksMain",
+            "request": "launch",
+            "mainClass": "threads.LocksMain",
+            "projectName": "multithreading"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ScheduledExecutorsMain2",
             "request": "launch",
             "mainClass": "threads.ScheduledExecutorsMain2",
