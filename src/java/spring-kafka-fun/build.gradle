@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'application'
+	  id 'org.springframework.boot' version '2.1.8.RELEASE'
+	  id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+mainClassName = 'kafka.SpringKafkaSpringApp'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/groups/public/' }
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.kafka:spring-kafka'
+
+  testCompile([
+      'junit:junit:4.12'
+  ])		
+}
+
+run {    
+  systemProperties System.getProperties()
+}
+
+
