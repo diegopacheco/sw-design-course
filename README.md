@@ -38,6 +38,7 @@ sw-design-course: It's a entire course on software design
 * Scala & Clojure -> https://www.slideshare.net/diego.pacheco/clojure-scala
 * Multithreading & Actors -> https://www.slideshare.net/diego.pacheco/multithreading-and-actors
 * NoSQL & Distributed Log -> https://www.slideshare.net/diego.pacheco/nosql-distributed-log
+* ES & Kafka -> https://www.slideshare.net/diego.pacheco/es-kafka
 
 ## Homeworks 
 
