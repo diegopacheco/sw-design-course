@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Basic",
+            "request": "launch",
+            "mainClass": "Basic",
+            "projectName": "cassandra-fun"
+        }
+    ]
+}
