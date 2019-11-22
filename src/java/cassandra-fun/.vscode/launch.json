@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MapperMain",
+            "request": "launch",
+            "mainClass": "mapper.MapperMain",
+            "projectName": "cassandra-fun"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Async",
             "request": "launch",
             "mainClass": "Async",
