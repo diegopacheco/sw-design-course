@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SchemaQuery",
+            "request": "launch",
+            "mainClass": "SchemaQuery",
+            "projectName": "cassandra-fun"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Basic",
             "request": "launch",
             "mainClass": "Basic",
