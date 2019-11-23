@@ -39,6 +39,7 @@ sw-design-course: It's a entire course on software design
 * Multithreading & Actors -> https://www.slideshare.net/diego.pacheco/multithreading-and-actors
 * NoSQL & Distributed Log -> https://www.slideshare.net/diego.pacheco/nosql-distributed-log
 * ES & Kafka -> https://www.slideshare.net/diego.pacheco/es-kafka
+* Cassandra & Redis -> https://www.slideshare.net/diego.pacheco/cassandra-redis
 
 ## Homeworks 
 
