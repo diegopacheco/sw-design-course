@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpringDataRedisRepositoryMain",
+            "request": "launch",
+            "mainClass": "people.SpringDataRedisRepositoryMain",
+            "projectName": "java-spring-data-redis-fun"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpringDataRedisMain",
+            "request": "launch",
+            "mainClass": "people.SpringDataRedisMain",
+            "projectName": "java-spring-data-redis-fun"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpringDataRedisMain",
+            "request": "launch",
+            "mainClass": "SpringDataRedisMain",
+            "projectName": "java-spring-data-redis-fun"
+        }
+    ]
+}
