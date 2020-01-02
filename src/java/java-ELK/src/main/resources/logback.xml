@@ -1,0 +1,19 @@
+<configuration>
+<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+<encoder>
+    <pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
+</encoder>
+</appender>
+<appender name="STASH" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>logs/springboot2xapp.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+        <fileNamePattern>logs/springboot2xapp.%d{yyyy-MM-dd}.log</fileNamePattern>
+        <maxHistory>7</maxHistory>
+    </rollingPolicy>  
+    <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
+</appender>
+<root level="INFO">
+    <appender-ref ref="STASH"  />        
+    <appender-ref ref="STDOUT" />
+</root>
+</configuration>
