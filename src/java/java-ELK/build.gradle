@@ -1,0 +1,61 @@
+buildscript {
+    repositories {
+        maven {
+            url 'https://plugins.gradle.org/m2/'
+        }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.adarshr:gradle-test-logger-plugin:1.6.0'
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.2.2.RELEASE'
+    }
+}
+apply plugin: 'com.adarshr.test-logger'
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+mainClassName = 'app.Application'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/groups/public/' }
+}
+
+bootJar {
+    baseName = 'java-ELK'
+    version =  '1.0.0'
+}
+
+dependencies {
+  compile("org.springframework.boot:spring-boot-starter-web")
+  testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
+  testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
+}
+
+run {    
+  systemProperties System.getProperties()
+}
+
+test {
+    useJUnitPlatform()
+}
+
+testlogger {
+    theme 'mocha'     
+    showExceptions true
+    slowThreshold 2000
+    showSummary true
+    showPassed true
+    showSkipped true
+    showFailed true
+    showStandardStreams false
+    showPassedStandardStreams true
+    showSkippedStandardStreams true
+    showFailedStandardStreams true
+}
+
