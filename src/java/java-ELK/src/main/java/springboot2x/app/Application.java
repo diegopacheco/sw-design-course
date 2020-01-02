@@ -1,4 +1,4 @@
-package app;
+package springboot2x.app;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication(scanBasePackages = "controller")
+@SpringBootApplication(scanBasePackages = "springboot2x")
 public class Application {
 
     public static void main(String[] args) {
