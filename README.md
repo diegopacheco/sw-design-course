@@ -40,6 +40,7 @@ sw-design-course: It's a entire course on software design
 * NoSQL & Distributed Log -> https://www.slideshare.net/diego.pacheco/nosql-distributed-log
 * ES & Kafka -> https://www.slideshare.net/diego.pacheco/es-kafka
 * Cassandra & Redis -> https://www.slideshare.net/diego.pacheco/cassandra-redis
+* Observability -> https://www.slideshare.net/diego.pacheco/observability-214374766 
 
 ## Homeworks 
 
