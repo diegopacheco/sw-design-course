@@ -1,0 +1,65 @@
+buildscript {
+    repositories {
+        maven {
+            url 'https://plugins.gradle.org/m2/'
+        }
+    }
+    dependencies {
+        classpath 'com.adarshr:gradle-test-logger-plugin:1.6.0'
+        classpath 'com.bmuschko:gradle-docker-plugin:4.6.2'
+        classpath "gradle.plugin.com.github.lkishalmi.gatling:gradle-gatling-plugin:3.0.2" 
+    }
+}
+
+apply plugin: 'com.adarshr.test-logger'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'scala'
+apply plugin: "com.github.lkishalmi.gatling"
+
+repositories {
+    mavenCentral()
+}
+
+testlogger {
+        theme 'mocha'     
+        showExceptions true
+        slowThreshold 2000
+        showSummary true
+        showPassed true
+        showSkipped true
+        showFailed true
+        showStandardStreams false
+        showPassedStandardStreams true
+        showSkippedStandardStreams true
+        showFailedStandardStreams true
+}
+
+dependencies {
+   compile 'org.scala-lang:scala-library:2.12.8'
+   compile group: 'io.gatling', name: 'gatling-core', version: '3.0.2'
+   compile group: 'io.gatling', name: 'gatling-http', version: '3.0.2'
+}
+
+gatling {
+   
+    if (System.getProperty("GATLING_URL")==null)    System.setProperty("GATLING_URL", "http://localhost:8080")
+    if (System.getProperty("GATLING_USERS")==null)  System.setProperty("GATLING_USERS", "1")
+    if (System.getProperty("GATLING_DURING")==null) System.setProperty("GATLING_DURING", "60")
+
+    scalaVersion = '2.12.8'
+    toolVersion = '3.0.2'
+    jvmArgs = [ '-server', "-Xms512M", "-Xmx512M", "-Djava.net.preferIPv4Stack=true","-Djava.net.preferIPv6Addresses=false"]
+    
+    includeMainOutput = true
+    simulations = {
+        include "**/*/*.scala"
+    }
+}
+
+version = '1.0'
+jar {
+    manifest.attributes provider: 'gradle'
+}
+
+ext['netty.version'] = '4.0.51.Final'

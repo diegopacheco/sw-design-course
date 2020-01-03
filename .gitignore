@@ -12,6 +12,8 @@ target/
 *.log
 logs/
 
+build/
+
 # BlueJ files
 *.ctxt
 
