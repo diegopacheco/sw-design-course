@@ -41,6 +41,8 @@ sw-design-course: It's a entire course on software design
 * ES & Kafka -> https://www.slideshare.net/diego.pacheco/es-kafka
 * Cassandra & Redis -> https://www.slideshare.net/diego.pacheco/cassandra-redis
 * Observability -> https://www.slideshare.net/diego.pacheco/observability-214374766 
+* Stress Test & Chaos Engineering -> https://www.slideshare.net/diego.pacheco/stress-test-chaos-engineering
+
 
 ## Homeworks 
 
