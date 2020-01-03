@@ -3,6 +3,8 @@ sw-design-course: It's a entire course on software design
 
 ## Content
 
+Part 1
+
 1.  UML
 2.  Tests
 3.  OOP Design / OOAD & FP Principles
@@ -16,6 +18,9 @@ sw-design-course: It's a entire course on software design
 11. Clean Code(why not do it)
 12. Philosophy of software Design
 13. Simple / RDD / SOLID / DBC / KISS
+
+Part 2
+
 14. Design Patterns & IoC / DI
 15. Science 101 & Trade-offs & Evidence
 16. Tech Leadership & Coding Katas & Feedback Culture
