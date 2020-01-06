@@ -48,6 +48,7 @@ Part 2
 * Observability -> https://www.slideshare.net/diego.pacheco/observability-214374766 
 * Stress Test & Chaos Engineering -> https://www.slideshare.net/diego.pacheco/stress-test-chaos-engineering
 * Clean Code (Why not to do it) -> https://www.slideshare.net/diego.pacheco/clean-code-why-not-do-it
+* A Philosophy of Software Design -> https://www.slideshare.net/diego.pacheco/a-philosophy-of-software-design-216195353
 
 ## Homeworks 
 
