@@ -17,7 +17,7 @@ Part 1
 10. Stress Testing & Chaos Engineering
 11. Clean Code(why not do it)
 12. Philosophy of software Design
-13. Simple / RDD / SOLID / DBC / KISS
+13. Design Approaches(Simple,KISS, RDD, DBC, SOLID)
 
 Part 2
 
@@ -49,6 +49,7 @@ Part 2
 * Stress Test & Chaos Engineering -> https://www.slideshare.net/diego.pacheco/stress-test-chaos-engineering
 * Clean Code (Why not to do it) -> https://www.slideshare.net/diego.pacheco/clean-code-why-not-do-it
 * A Philosophy of Software Design -> https://www.slideshare.net/diego.pacheco/a-philosophy-of-software-design-216195353
+* Design Approaches(Simple,KISS, RDD, DBC, SOLID) -> https://www.slideshare.net/diego.pacheco/design-approachessimple-kiss-rdd-dbc-solid
 
 ## Homeworks 
 
