@@ -1,5 +1,6 @@
-# sw-design-course
-sw-design-course: It's a entire course on software design
+# Software Design Course / ELs Course
+
+It's a entire course on software design
 
 ![Course Logo](cover.png)
 
@@ -44,3 +45,12 @@ On each Deck there are homeworks.
 First of all you FORK it, read all the DECKS and them code the exercises, </BR>
 create a folder *homeworks* and create a folder with the name of the homework. i.g: homeworks/1.UML/ drop the files there. 
 
+## Recommend Reading
+
+* [Amazon Builder Library: Review Notes](http://diego-pacheco.blogspot.com/2020/01/amazon-builder-library-review-notes.html)
+* [Why do we need a Clean Code DETOX?](http://diego-pacheco.blogspot.com/2020/01/why-do-we-need-clean-code-detox.html)
+* [Internal System Design: The Forgotten Discipline](http://diego-pacheco.blogspot.com/2018/05/internal-system-design-forgotten.html)
+* [My 2 cents on TDD](http://diego-pacheco.blogspot.com/2017/03/my-2-cents-on-tdd.html)
+* [SOA Contract Testing](http://diego-pacheco.blogspot.com/2014/10/soa-contract-testing.html)
+* [Kubernetes Posts](http://diego-pacheco.blogspot.com/search?q=k8s)
+* [SOA, Micro services and Isolation Evolution](http://diego-pacheco.blogspot.com/2014/11/soa-micro-services-and-isolation.html)
