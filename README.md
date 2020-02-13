@@ -1,6 +1,8 @@
 # sw-design-course
 sw-design-course: It's a entire course on software design
 
+![Course Logo](cover.png)
+
 ## Content
 
 1.  UML
